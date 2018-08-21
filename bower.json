@@ -1,0 +1,18 @@
+{
+  "name": "Crud-Time-Line",
+  "homepage": "https://github.com/armenio2/Crud-Time-Line",
+  "authors": [
+    "Armenio Mauricio <dehme.armenio@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
