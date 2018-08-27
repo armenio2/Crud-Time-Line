@@ -1,89 +1,20 @@
-#head{
-    height: 40px;
-    background: white;
-    border-bottom: 1px solid;
+#navbarCss{
     position: fixed;
-    overflow: hidden;
+    width: 100%;
+    z-index: 2;
 }
-#colInput{
-    background: lightblue;
-    animation-name: backcolor;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-
-}
-#colInput button{
-    color: black;
-}
-#robotGif{
-    height: 33px;
-    margin-top: 3px;
-    position: absolute;
-    animation:spin 1s linear infinite;
-}
-#robotGif2{
-    height: 33px;
-    margin-top: 3px;
-    position: absolute;
-    animation:spin 1s linear infinite;
-
-}
-#colGif{
-    position: relative;
-    animation-name: example;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
-}
-#colGif2{
-    position: relative;
-    animation-name: example2;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
-}
-@keyframes example {
-    0%   { left:0px; top:0px; -webkit-transform: rotate(360deg); transform:rotate(360deg);}
-    25%  { left:500px; top:0px; -webkit-transform: rotate(360deg); transform:rotate(360deg);}
-    75%  { left:500px; top:0px; -webkit-transform: rotate(360deg); transform:rotate(360deg);}
-    100% { left:0px; top:0px; -webkit-transform: rotate(360deg); transform:rotate(360deg);}
-}
-@keyframes example2 {
-    0%   { left:-100px; top:0px; -webkit-transform: rotate(360deg); transform:rotate(360deg);}
-    25%  { left:-35px; top:0px; -webkit-transform: rotate(360deg); transform:rotate(360deg);}
-    50%  { left:350px; top:0px; -webkit-transform: rotate(360deg); transform:rotate(360deg);}
-    75%  { left:-35px; top:0px; -webkit-transform: rotate(360deg); transform:rotate(360deg);}
-    100% { left:-100px; top:0px; -webkit-transform: rotate(360deg); transform:rotate(360deg);}
-}
-@keyframes backcolor {
-    0%   {background-color: rgb(127, 190, 211);}
-    50%  {background-color: rgb(99, 99, 235);}
-    100% {background-color: rgb(127, 190, 211);}
-}
-
-/* fim css head */
-
-#colunLeft img{
-    width: 50px;
-
-}
-#colunLeft{
-    margin-top: 40px;
-    border: 1px solid;
-    text-align: center;
+#contentLeft{
     position: fixed;
-    width: 300px;
+    z-index: 1;
+    margin-top: 45px;
 }
-#colunMiddle{
-    margin-top: 40px;
-    border: 1px solid;
-    text-align: center;
+#contentMiddle{
     position: relative;
-    height: 5000px;
-
+    z-index: 1;
+    margin-top: 45px;
 }
-#colunRight{
-    margin-top: 40px;
-    border: 1px solid;
-    position: fixed;
-    width: 300px;
-    float: right;
+#contentRight{
+    position: relative;
+    z-index: 1;
+    margin-top: 45px;
 }
