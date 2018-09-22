@@ -16,6 +16,7 @@ install node.js
 
 * [HTML5]
 * [CSS]
+* [JavaScript]
 * [Bootstrap]
 
 ## Contributing
